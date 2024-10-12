@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using HTML, CSS, and JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="display" disabled>
+            </div>
+            <div class="buttons-grid">
+                <button class="operator" data-action="clear">AC</button>
+                <button class="operator" data-action="delete">DE</button>
+                <button class="operator" data-action=".">.</button>
+                <button class="operator" data-action="/">/</button>
+                
+                <button data-action="7">7</button>
+                <button data-action="8">8</button>
+                <button data-action="9">9</button>
+                <button class="operator" data-action="*">*</button>
+                
+                <button data-action="4">4</button>
+                <button data-action="5">5</button>
+                <button data-action="6">6</button>
+                <button class="operator" data-action="-">-</button>
+                
+                <button data-action="1">1</button>
+                <button data-action="2">2</button>
+                <button data-action="3">3</button>
+                <button class="operator" data-action="+">+</button>
+                
+                <button data-action="00">00</button>
+                <button data-action="0">0</button>
+                <button class="equal operator" data-action="=">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
